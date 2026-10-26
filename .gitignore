@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets: copy config/credentials.example.txt to config/credentials.txt
+config/credentials.txt
+.env
+.env.*
+
+# Runtime output
+*.log
+downloaded_*
+*.part
+
+# Archives and documents that do not belong in the repository
+*.zip
+*.pdf
+*.docx
